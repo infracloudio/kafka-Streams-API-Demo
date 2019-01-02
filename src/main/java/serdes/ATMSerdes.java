@@ -1,7 +1,7 @@
 package serdes;
 
-import myapps.ATMFraud.AtmTransaction;
-import myapps.ATMFraud.JoinedAtmTransactions;
+import model.AtmTransaction;
+import model.JoinedAtmTransactions;
 import org.apache.kafka.common.serialization.*;
 import org.apache.kafka.common.serialization.Serdes.WrapperSerde;
 

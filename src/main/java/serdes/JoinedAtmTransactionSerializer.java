@@ -2,7 +2,7 @@ package serdes;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import myapps.ATMFraud.JoinedAtmTransactions;
+import model.JoinedAtmTransactions;
 import org.apache.kafka.common.serialization.Serializer;
 
 import java.util.Map;
@@ -20,7 +20,6 @@ public class JoinedAtmTransactionSerializer implements Serializer<JoinedAtmTrans
     byte[] bytes = new byte[0];
 
     try {
-      System.out.println("Trying to serialize: " + data);
       bytes = mapper.writeValueAsBytes(data);
     } catch (JsonProcessingException e) {
       System.out.println("Error writing value as bytes");
