@@ -2,13 +2,11 @@ package serdes;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-//import lombok.extern.slf4j.Slf4j;
-import myapps.ATMFraud.AtmTransaction;
+import model.AtmTransaction;
 import org.apache.kafka.common.serialization.Serializer;
 
 import java.util.Map;
 
-//@Slf4j
 public class AtmTransactionSerializer implements Serializer<AtmTransaction> {
 
   private ObjectMapper mapper = new ObjectMapper();
@@ -23,7 +21,6 @@ public class AtmTransactionSerializer implements Serializer<AtmTransaction> {
     byte[] bytes = new byte[0];
 
     try {
-//      System.out.println("Incoming object : " + transaction == null ? transaction : transaction.toString());
       bytes = mapper.writeValueAsString(transaction).getBytes();
     } catch (JsonProcessingException e) {
       System.out.println("Error serializing atm transaction.");

@@ -1,7 +1,7 @@
 package serdes;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import myapps.ATMFraud.JoinedAtmTransactions;
+import model.JoinedAtmTransactions;
 import org.apache.kafka.common.serialization.Deserializer;
 
 import java.io.IOException;
@@ -20,7 +20,6 @@ public class JoinedAtmTransactionDeserializer implements Deserializer<JoinedAtmT
     JoinedAtmTransactions value = null;
 
     try {
-//      System.out.println("Trying to deserialize data: " + new String(data));
       value = mapper.readValue(data, JoinedAtmTransactions.class);
     } catch (IOException e) {
       System.out.println("Error while deserializing data.");
