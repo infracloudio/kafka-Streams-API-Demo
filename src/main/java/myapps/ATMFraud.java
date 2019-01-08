@@ -32,7 +32,7 @@ public class ATMFraud {
   public static void main(final String[] args) {
     Properties properties = new Properties();
     properties.put(APPLICATION_ID_CONFIG, "streams-atm-fraud-detector");
-    properties.put(BOOTSTRAP_SERVERS_CONFIG, "kafka:29092");
+    properties.put(BOOTSTRAP_SERVERS_CONFIG, "kafka:9092");
     properties.put(DEFAULT_KEY_SERDE_CLASS_CONFIG, String().getClass());
     properties.put(DEFAULT_VALUE_SERDE_CLASS_CONFIG, AtmTransactionSerde().getClass());
 
@@ -53,16 +53,13 @@ public class ATMFraud {
       boolean result = false;
       if (joinedTrxn.getPrevTransactionId().equals(joinedTrxn.getLaterTransactionId()))
         System.out.println("transaction IDS match. record will be skipped. Prev Trxn Id: " + joinedTrxn.getPrevTransactionId()
-        + "Later Trxn Id: " + joinedTrxn.getLaterTransactionId());
-      else if (joinedTrxn.getPrevTimestamp().equals(joinedTrxn.getLaterTimestamp()))
-        System.out.println("transaction TIMES match. record will be skipped. Prev Trxn Id: " + joinedTrxn.getPrevTransactionId()
-                + "Later Trxn Id: " + joinedTrxn.getLaterTransactionId());
+        + ", Later Trxn Id: " + joinedTrxn.getLaterTransactionId());
       else if (joinedTrxn.getPrevTransactionLocation().toString().equals(joinedTrxn.getLaterTransactionLocation().toString()))
         System.out.println("transaction LOCATIONS match. record will be skipped. Prev Trxn Id: " + joinedTrxn.getPrevTransactionId()
-                + "Later Trxn Id: " + joinedTrxn.getLaterTransactionId());
+                + ", Later Trxn Id: " + joinedTrxn.getLaterTransactionId());
       else {
         System.out.println("FRAUDULOUS transaction found. Prev Trxn Id: " + joinedTrxn.getPrevTransactionId()
-                + "Later Trxn Id: " + joinedTrxn.getLaterTransactionId());
+                + ", Later Trxn Id: " + joinedTrxn.getLaterTransactionId());
         result = true;
       }
 
@@ -80,19 +77,19 @@ public class ATMFraud {
     final Topology topology = streamsBuilder.build();
     System.out.println(topology.describe());
 
-    final KafkaStreams leftStreams = new KafkaStreams(topology, properties);
+    final KafkaStreams kafkaStreams = new KafkaStreams(topology, properties);
     final CountDownLatch latch = new CountDownLatch(1);
 
     getRuntime().addShutdownHook(new Thread("streams-shutdown-hook") {
       @Override
       public void run() {
-        leftStreams.close();
+        kafkaStreams.close();
         latch.countDown();
       }
     });
 
     try {
-      leftStreams.start();
+      kafkaStreams.start();
       latch.await();
     } catch (Throwable t) {
       System.exit(1);
