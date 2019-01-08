@@ -1,4 +1,6 @@
-{"account_id": "a778", "timestamp": "2018-12-19 05:59:16 +0000", "atm": "Barclays Bank PLC", "amount": 50, "location": {"lat": "53.6919617", "lon": "-1.6275316"}, "transaction_id": "37e43982-0353-11e9-9fb5-0242ac1c0008"}
+Non Fraudulent Regular Trxns:
+
+key1 {"account_id": "a778", "timestamp": "2018-12-19 05:59:16 +0000", "atm": "Barclays Bank PLC", "amount": 50, "location": {"lat": "53.6919617", "lon": "-1.6275316"}, "transaction_id": "37e43982-0353-11e9-9fb5-0242ac1c0008"}
 
 key2 {"account_id": "a291", "timestamp": "2018-12-19 05:59:17 +0000", "atm": "ATM : 5920382951", "amount": 300, "location": {"lat": "53.683055", "lon": "-1.5058659"}, "transaction_id": "385700d4-0353-11e9-9fb5-0242ac1c0008"}
 
@@ -6,41 +8,75 @@ key3 {"account_id": "a933", "timestamp": "2018-12-19 05:59:18 +0000", "atm": "AT
 
 key4 {"account_id": "a358", "timestamp": "2018-12-19 05:59:18 +0000", "atm": "Post Office", "amount": 200, "location": {"lat": "53.8349032", "lon": "-1.7306779"}, "transaction_id": "393ce2e8-0353-11e9-9fb5-0242ac1c0008"}
 
-key5 {"account_id": "a496", "timestamp": "2018-12-19 05:59:19 +0000", "atm": "Yorkshire Bank", "amount": 100, "location": {"lat": "53.8794542", "lon": "-1.7263936"}, "transaction_id": "39afdf1e-0353-11e9-9fb5-0242ac1c0008"}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Non Fraudulent Trxns at Same Location:
 
-key6 {"account_id": "a79", "timestamp": "2018-12-19 05:59:20 +0000", "atm": "Lloyds", "amount": 200, "location": {"lat": "53.7221057", "lon": "-1.8616274"}, "transaction_id": "3a22d23a-0353-11e9-9fb5-0242ac1c0008"}
+key5 {"account_id": "a496", "timestamp": "2018-12-19 05:59:19 +0000", "atm": "Yorkshire Bank", "amount": 500, "location": {"lat": "53.8794542", "lon": "-1.7263936"}, "transaction_id": "39afdf1e-0353-11e9-9fb5-0242ac1c0008"}
 
-key7 {"account_id": "a236", "timestamp": "2018-12-19 05:59:21 +0000", "atm": "24/7", "amount": 400, "location": {"lat": "53.7942063", "lon": "-1.3881868"}, "transaction_id": "3a95911c-0353-11e9-9fb5-0242ac1c0008"}
+key6 {"account_id": "a496", "timestamp": "2018-12-19 06:02:00 +0000", "atm": "Yorkshire Bank", "amount": 500, "location": {"lat": "53.8794542", "lon": "-1.7263936"}, "transaction_id": "3a22d23a-0353-11e9-9fb5-0242ac1c0008"}
 
-key8 {"account_id": "a331", "timestamp": "2018-12-19 05:59:21 +0000", "atm": "ATM : 3145367892", "amount": 100, "location": {"lat": "53.7937203", "lon": "-1.5381877"}, "transaction_id": "3b087ccc-0353-11e9-9fb5-0242ac1c0008"}
+key7 {"account_id": "a79", "timestamp": "2018-12-19 05:59:20 +0000", "atm": "Lloyds", "amount": 500, "location": {"lat": "53.7221057", "lon": "-1.8616274"}, "transaction_id": "3a22d23a-0353-11e9-9fb5-0242ac1c0008"}
 
-key9 {"account_id": "a197", "timestamp": "2018-12-19 05:59:22 +0000", "atm": "ATM : 4192442239", "amount": 50, "location": {"lat": "53.8061054", "lon": "-1.4768953"}, "transaction_id": "3b7b4dc4-0353-11e9-9fb5-0242ac1c0008"}
+key8 {"account_id": "a79", "timestamp": "2018-12-19 05:59:20 +0000", "atm": "Lloyds", "amount": 300, "location": {"lat": "53.7221057", "lon": "-1.8616274"}, "transaction_id": "3a95911c-0353-11e9-9fb5-0242ac1c0008"}
 
-key10 {"account_id": "a464", "timestamp": "2018-12-19 05:59:23 +0000", "atm": "ATM : 3616415171", "amount": 100, "location": {"lat": "53.823633", "lon": "-1.4862763"}, "transaction_id": "3bee1e80-0353-11e9-9fb5-0242ac1c0008"}
+key9 {"account_id": "a236", "timestamp": "2018-12-19 05:59:21 +0000", "atm": "24/7", "amount": 500, "location": {"lat": "53.7942063", "lon": "-1.3881868"}, "transaction_id": "3a95911c-0353-11e9-9fb5-0242ac1c0008"}
 
-key11 {"account_id": "a464", "timestamp": "2018-12-19 05:49:25 +0000", "atm": "ATM : 1640283320", "amount": 100, "location": {"lat": "53.6569539", "lon": "-1.843641"}, "transaction_id": "xxx3bee1e80-0353-11e9-9fb5-0242ac1c0008"}
+key10 {"account_id": "a236", "timestamp": "2018-12-19 05:59:21 +0000", "atm": "24/7", "amount": 200, "location": {"lat": "53.7942063", "lon": "-1.3881868"}, "transaction_id": "3b087ccc-0353-11e9-9fb5-0242ac1c0008"}
 
-key12 {"account_id": "a150", "timestamp": "2018-12-19 05:59:24 +0000", "atm": "ATM : 2153021841", "amount": 300, "location": {"lat": "53.9576567", "lon": "-1.5316233"}, "transaction_id": "3c6117a0-0353-11e9-9fb5-0242ac1c0008"}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Fraudulent Trxns:
 
-key13 {"account_id": "a149", "timestamp": "2018-12-19 05:59:24 +0000", "atm": "ATM : 3145367893", "amount": 100, "location": {"lat": "53.7918517", "lon": "-1.5424919"}, "transaction_id": "3cd3bb0c-0353-11e9-9fb5-0242ac1c0008"}
+key11 {"account_id": "a72", "timestamp": "2018-12-19 01:05:30 +0000", "atm": "ATM : 2127369008", "amount": 200, "location": {"lat": "53.6262053", "lon": "-1.8558646"}, "transaction_id": "406afca8-0353-11e9-9fb5-0242ac1c0008"}
 
-key14 {"account_id": "a707", "timestamp": "2018-12-19 05:59:25 +0000", "atm": "ATM : 3455482908", "amount": 50, "location": {"lat": "53.8231683", "lon": "-1.5109542"}, "transaction_id": "3d466490-0353-11e9-9fb5-0242ac1c0008"}
+    key12 {"account_id": "a72", "timestamp": "2018-12-19 01:12:30 +0000", "atm": "ATM : 5231639152", "amount": 200, "location": {"lat": "53.7968725", "lon": "-1.7356412"}, "transaction_id": "40dde5b0-0353-11e9-9fb5-0242ac1c0008"}
 
-key15 {"account_id": "a66", "timestamp": "2018-12-19 05:59:26 +0000", "atm": "ATM : 1716262811", "amount": 300, "location": {"lat": "53.856944", "lon": "-2.1685619"}, "transaction_id": "3db93be6-0353-11e9-9fb5-0242ac1c0008"}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+key13 {"account_id": "a127", "timestamp": "2018-12-19 02:09:31 +0000", "atm": "ATM : 5231639152", "amount": 400, "location": {"lat": "53.7968725", "lon": "-1.7356412"}, "transaction_id": "40dde5b0-0353-11e9-9fb5-0242ac1c0008"}
 
-key16 {"account_id": "a264", "timestamp": "2018-12-19 05:59:27 +0000", "atm": "ATM : 292238582", "amount": 300, "location": {"lat": "53.7709674", "lon": "-1.5499484"}, "transaction_id": "3e2c1d46-0353-11e9-9fb5-0242ac1c0008"}
+key14 {"account_id": "a127", "timestamp": "2018-12-19 02:18:31 +0000", "atm": "ATM : 332477443", "amount": 400, "location": {"lat": "53.8203572", "lon": "-1.5808781"}, "transaction_id": "4150afbe-0353-11e9-9fb5-0242ac1c0008"}
 
-key17 {"account_id": "a602", "timestamp": "2018-12-19 05:59:27 +0000", "atm": "Lloyds", "amount": 20, "location": {"lat": "53.7220967", "lon": "-1.8616642"}, "transaction_id": "3e9f188c-0353-11e9-9fb5-0242ac1c0008"}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+key15 {"account_id": "a279", "timestamp": "2018-12-19 03:23:32 +0000", "atm": "ATM : 332477443", "amount": 20, "location": {"lat": "53.8203572", "lon": "-1.5808781"}, "transaction_id": "4150afbe-0353-11e9-9fb5-0242ac1c0008"}
 
-key18 {"account_id": "a112", "timestamp": "2018-12-19 05:59:28 +0000", "atm": "Santander", "amount": 200, "location": {"lat": "53.8681187", "lon": "-1.9085059"}, "transaction_id": "3f120432-0353-11e9-9fb5-0242ac1c0008"}
+key16 {"account_id": "a279", "timestamp": "2018-12-19 03:30:32 +0000", "atm": "ATM : 3635703085", "amount": 20, "location": {"lat": "53.7685788", "lon": "-1.4178316"}, "transaction_id": "41c36c7a-0353-11e9-9fb5-0242ac1c0008"}
 
-key19 {"account_id": "a246", "timestamp": "2018-12-19 05:59:29 +0000", "atm": "HSBC", "amount": 300, "location": {"lat": "53.9048527", "lon": "-1.3462465"}, "transaction_id": "3f84fd16-0353-11e9-9fb5-0242ac1c0008"}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+key17 {"account_id": "a582", "timestamp": "2018-12-19 04:31:33 +0000", "atm": "ATM : 3635703085", "amount": 50, "location": {"lat": "53.7685788", "lon": "-1.4178316"}, "transaction_id": "41c36c7a-0353-11e9-9fb5-0242ac1c0008"}
 
-key20 {"account_id": "a246", "timestamp": "2018-12-19 06:59:29 +0000", "atm": "Lloyds", "amount": 300, "location": {"lat": "53.7220967", "lon": "-1.8616642"}, "transaction_id": "3abcdef6-0353-11e9-9fb5-0242ac1c0008"}
+key18 {"account_id": "a582", "timestamp": "2018-12-19 04:40:33 +0000", "atm": "ATM : 427819403", "amount": 50, "location": {"lat": "53.8426999", "lon": "-1.7340224"}, "transaction_id": "42364b0a-0353-11e9-9fb5-0242ac1c0008"}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+key19 {"account_id": "a790", "timestamp": "2018-12-19 05:51:33 +0000", "atm": "ATM : 427819403", "amount": 300, "location": {"lat": "53.8426999", "lon": "-1.7340224"}, "transaction_id": "42364b0a-0353-11e9-9fb5-0242ac1c0008"}
+
+key20 {"account_id": "a790", "timestamp": "2018-12-19 05:58:33 +0000", "atm": "ATM : 292238582", "amount": 300, "location": {"lat": "53.7709674", "lon": "-1.5499484"}, "transaction_id": "3e2c1d46-0353-11e9-9fb5-0242ac1c0008"}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Out of time window:
+
+key21 {"account_id": "a264", "timestamp": "2018-12-19 03:30:27 +0000", "atm": "ATM : 292238582", "amount": 300, "location": {"lat": "53.7709674", "lon": "-1.5499484"}, "transaction_id": "3e2c1d46-0353-11e9-9fb5-0242ac1c0008"}
+
+key22 {"account_id": "a264", "timestamp": "2018-12-19 03:50:27 +0000", "atm": "ATM : Lloyds", "amount": 300, "location": {"lat": "53.7220967", "lon": "-1.8616642"}, "transaction_id": "3e9f188c-0353-11e9-9fb5-0242ac1c0008"}
+
+key23 {"account_id": "a602", "timestamp": "2018-12-19 10:25:27 +0000", "atm": "Lloyds", "amount": 20, "location": {"lat": "53.7220967", "lon": "-1.8616642"}, "transaction_id": "3e9f188c-0353-11e9-9fb5-0242ac1c0008"}
+
+key24 {"account_id": "a602", "timestamp": "2018-12-19 10:40:27 +0000", "atm": "Santander", "amount": 200, "location": {"lat": "53.8681187", "lon": "-1.9085059"}, "transaction_id": "3f120432-0353-11e9-9fb5-0242ac1c0008"}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Others:
+
+key25 {"account_id": "a112", "timestamp": "2018-12-19 05:59:28 +0000", "atm": "Santander", "amount": 200, "location": {"lat": "53.8681187", "lon": "-1.9085059"}, "transaction_id": "3f120432-0353-11e9-9fb5-0242ac1c0008"}
+
+key26 {"account_id": "a112", "timestamp": "2018-12-19 06:03:28 +0000", "atm": "HSBC", "amount": 200, "location": {"lat": "53.9048527", "lon": "-1.3462465"}, "transaction_id": "3f84fd16-0353-11e9-9fb5-0242ac1c0008"}
+
+key27 {"account_id": "a246", "timestamp": "2018-12-19 05:59:29 +0000", "atm": "HSBC", "amount": 300, "location": {"lat": "53.9048527", "lon": "-1.3462465"}, "transaction_id": "3f84fd16-0353-11e9-9fb5-0242ac1c0008"}
+
+key28 {"account_id": "a246", "timestamp": "2018-12-19 06:07:29 +0000", "atm": "Lloyds", "amount": 300, "location": {"lat": "53.7220967", "lon": "-1.8616642"}, "transaction_id": "3abcdef6-0353-11e9-9fb5-0242ac1c0008"}
 
 key21 {"account_id": "a651", "timestamp": "2018-12-19 05:59:30 +0000", "atm": "ATM : 249713770", "amount": 200, "location": {"lat": "53.7973799", "lon": "-1.5442192"}, "transaction_id": "3ff811e8-0353-11e9-9fb5-0242ac1c0008"}
 
-key22 {"account_id": "a66", "timestamp": "2018-12-19 06:06:26 +0000", "atm": "ATM : 249713770", "amount": 500, "location": {"lat": "53.5699623", "lon": "-1.5499484"}, "transaction_id": "3sameer4-7834-22e9-9fb5-0242ac1c0008"}
+key22 {"account_id": "a66", "timestamp": "2018-12-19 06:00:26 +0000", "atm": "ATM : 249713770", "amount": 500, "location": {"lat": "53.5699623", "lon": "-1.5499484"}, "transaction_id": "406afca8-0353-11e9-9fb5-0242ac1c0008"}
+
+key22 {"account_id": "a66", "timestamp": "2018-12-19 06:06:26 +0000", "atm": "ATM : 2127369008", "amount": 500, "location": {"lat": "53.6262053", "lon": "-1.8558646"}, "transaction_id": "3ff811e8-0353-11e9-9fb5-0242ac1c0008"}
 
 key23 {"account_id": "a72", "timestamp": "2018-12-19 05:59:30 +0000", "atm": "ATM : 2127369008", "amount": 200, "location": {"lat": "53.6262053", "lon": "-1.8558646"}, "transaction_id": "406afca8-0353-11e9-9fb5-0242ac1c0008"}
 
@@ -215,3 +251,13 @@ key41 {"account_id": "a950", "timestamp": "2018-12-19 07:55:37 +0000", "atm": "H
 {"account_id": "a683", "timestamp": "2018-12-19 06:00:24 +0000", "atm": "ATM : 3084261112", "amount": 50, "location": {"lat": "53.5421237", "lon": "-2.1120086"}, "transaction_id": "604928ec-0353-11e9-9fb5-0242ac1c0008"}
 
 {"account_id": "a469", "timestamp": "2018-12-19 06:00:25 +0000", "atm": "Halifax", "amount": 100, "location": {"lat": "53.8211134", "lon": "-1.5780719"}, "transaction_id": "60bc06a0-0353-11e9-9fb5-0242ac1c0008"}
+
+{"account_id": "a464", "timestamp": "2018-12-19 04:15:25 +0000", "atm": "ATM : 1640283320", "amount": 100, "location": {"lat": "53.6569539", "lon": "-1.843641"}, "transaction_id": "3bee1e80-0353-11e9-9fb5-0242ac1c0008"}
+
+{"account_id": "a150", "timestamp": "2018-12-19 03:26:24 +0000", "atm": "ATM : 2153021841", "amount": 300, "location": {"lat": "53.9576567", "lon": "-1.5316233"}, "transaction_id": "3c6117a0-0353-11e9-9fb5-0242ac1c0008"}
+
+{"account_id": "a149", "timestamp": "2018-12-19 05:59:24 +0000", "atm": "ATM : 3145367893", "amount": 100, "location": {"lat": "53.7918517", "lon": "-1.5424919"}, "transaction_id": "3cd3bb0c-0353-11e9-9fb5-0242ac1c0008"}
+
+{"account_id": "a707", "timestamp": "2018-12-19 06:44:25 +0000", "atm": "ATM : 3455482908", "amount": 50, "location": {"lat": "53.8231683", "lon": "-1.5109542"}, "transaction_id": "3d466490-0353-11e9-9fb5-0242ac1c0008"}
+
+{"account_id": "a66", "timestamp": "2018-12-19 01:23:26 +0000", "atm": "ATM : 1716262811", "amount": 300, "location": {"lat": "53.856944", "lon": "-2.1685619"}, "transaction_id": "3db93be6-0353-11e9-9fb5-0242ac1c0008"}

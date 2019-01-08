@@ -53,16 +53,13 @@ public class ATMFraud {
       boolean result = false;
       if (joinedTrxn.getPrevTransactionId().equals(joinedTrxn.getLaterTransactionId()))
         System.out.println("transaction IDS match. record will be skipped. Prev Trxn Id: " + joinedTrxn.getPrevTransactionId()
-        + "Later Trxn Id: " + joinedTrxn.getLaterTransactionId());
-      else if (joinedTrxn.getPrevTimestamp().equals(joinedTrxn.getLaterTimestamp()))
-        System.out.println("transaction TIMES match. record will be skipped. Prev Trxn Id: " + joinedTrxn.getPrevTransactionId()
-                + "Later Trxn Id: " + joinedTrxn.getLaterTransactionId());
+        + ", Later Trxn Id: " + joinedTrxn.getLaterTransactionId());
       else if (joinedTrxn.getPrevTransactionLocation().toString().equals(joinedTrxn.getLaterTransactionLocation().toString()))
         System.out.println("transaction LOCATIONS match. record will be skipped. Prev Trxn Id: " + joinedTrxn.getPrevTransactionId()
-                + "Later Trxn Id: " + joinedTrxn.getLaterTransactionId());
+                + ", Later Trxn Id: " + joinedTrxn.getLaterTransactionId());
       else {
         System.out.println("FRAUDULOUS transaction found. Prev Trxn Id: " + joinedTrxn.getPrevTransactionId()
-                + "Later Trxn Id: " + joinedTrxn.getLaterTransactionId());
+                + ", Later Trxn Id: " + joinedTrxn.getLaterTransactionId());
         result = true;
       }
 
